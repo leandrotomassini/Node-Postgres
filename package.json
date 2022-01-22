@@ -1,0 +1,28 @@
+{
+  "name": "node-postgres",
+  "version": "1.0.0",
+  "description": "![Node Postgres](https://i.imgur.com/SNWjOZE.png)\r # Node Postgres\r Node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrotomassini/Node-Postgres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrotomassini/Node-Postgres/issues"
+  },
+  "homepage": "https://github.com/leandrotomassini/Node-Postgres#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
