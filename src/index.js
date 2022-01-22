@@ -8,6 +8,6 @@ app.use(express.urlencoded({ extended: false }))
 // Routes
 app.use(require('./routes/index'));
 
-app.listen(3000);
+app.listen();
 
 console.log('Server on port 3000');
